@@ -22,7 +22,7 @@ function Rent() {
             <div className="banner-Image-rent ">
               <h2 className="text-center text-white">
                 Properties To rent in {city}
-              </h2>
+              </h2>/
 
               <div>
                 <h3 className="text-center text-white h2Inheading">
@@ -30,7 +30,7 @@ function Rent() {
                 </h3>
               </div>
               <SearchNavbar classNname="mb-5" />
-            </div>
+            </div>    
           </div>
         </section>
         <div className="mt-5">
@@ -59,6 +59,8 @@ function Rent() {
 
               <div></div>
             </header>
+
+            
             <div className="edge-div ">
               <div className="css-card-div slider-inner ">
                 <div className="">

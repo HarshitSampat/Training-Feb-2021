@@ -42,7 +42,7 @@ exports.login = async function (req, res, next) {
 //  exports.googleLogin = (req, res) => {
 //   try{
 //       const { tokenId } = req.body;
-
+// // 
 //   client.verifyIdToken({
 //     idToken:tokenId,
 //     audience:
@@ -63,7 +63,7 @@ exports.login = async function (req, res, next) {
 //                 token,
 //                 user:{_id,name,email}
 //               })
-              
+//               // 
 //           }else{
 //               let password = email+process.env.JWT_SIGNIN_KEY
 //               let newUser = new User({name,email,password});
@@ -75,7 +75,6 @@ exports.login = async function (req, res, next) {
 //                 }
 //                 const token = jwt.sign({_id:data._id},process.env.JWT_SIGNIN_KEY,{expiresIn:'7d'})
 //                 const {_id,name,email} = user;
-
 //                 res.json({
 //                   tokken,
 //                   user:{_id,name,email}
@@ -94,7 +93,7 @@ exports.login = async function (req, res, next) {
 //           }
 //         }
 //       })
-      
+//       // 
 //       )}
 //     console.log(response.payload);
 //   });
@@ -102,4 +101,4 @@ exports.login = async function (req, res, next) {
 // }catch{
 //   res.send('something happend dear.Its look like you are not a programmer' )
 // }
-// };
+// }

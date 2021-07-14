@@ -1,11 +1,12 @@
 import React from "react";
-import Footer from "../components/Footer";
 
-function rentFurniture() {
-  
-  return <><div>Hello from rent furniture</div>
-  <Footer/>
-  </>
-}
+const rentFurnitureInitiate = () => {
+  return (
+    <div>
+      <h1>Hello from rental rentFurniture </h1>
+      <Footer />
+    </div>
+  );
+};
 
-export default rentFurniture;
+export default rentFurnitureInitiate;

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import Navbar1 from "../components/Navbar";
 import SearchNavbar from "../components/SearchNavbar";
 import payrent from "../Images/card-images/payRent.svg";
@@ -9,12 +9,14 @@ import property from "../Images/card-images/propertyManagement.svg";
 import topProject from "../Images/topproject.png";
 // import axios from "axios";
 import Footer from "../components/Footer";
+// import ReactCardCarousel from "react-card-carousel"
+import '../App.css'
 
 function Home() {
   // const [allData, setAllData] = useState([]);
   // const [filterData, setFilterData] = useState(allData);
 
-  const handleSearch = (event) => {};
+  // const handleSearch = (event) => {};
 
   // useEffect(() => {
   //   axios("https://jsonplaceholder.typicode.com/albums/1/photos")
@@ -72,12 +74,13 @@ function Home() {
                   </a>
                 </p>
               </div>
-            </div>
+            </div>    
 
             <div></div>
           </header>
+          
           <div className="edge-div ">
-            <div className="css-card-div slider-inner ">
+            <div className="css-card-div slider-inner">
               <div className="">
                 <div className="css-slide-element css-slide-element1 border border-success">
                   <div className="css-card-body ml-3">
@@ -93,7 +96,7 @@ function Home() {
                         <div className="css-text mr-3 text-success">
                           Rent Agreement
                         </div>
-                      </div>
+                      </div>  
                     </a>
                   </div>
                 </div>
@@ -102,7 +105,7 @@ function Home() {
                     <a href="/edge/pay-rent">
                       <div className="css-card-body-inside ml-3">
                         <img
-                          src={payrent}
+                          src={payrent} 
                           className="img-css mt-1"
                           alt="img"
                         ></img>
@@ -145,7 +148,7 @@ function Home() {
                     </a>
                   </div>
                 </div>
-                <div className="css-slide-element css-slide-element1 ml-5">
+                <div className="css-slide-element css-slide-element1 ml-5 css-uwwqev">
                   <div className="css-card-body ml-5 border border-info">
                     <a href="/edge/property-management">
                       <div className="css-card-body-inside ml-3 mt-1">
@@ -157,8 +160,10 @@ function Home() {
                         </div>
                       </div>
                     </a>
+                  
                   </div>
                 </div>
+
                 {/* <div className="css-slide-element inacticve-slide runCss ml-5">
                   <div className="css-card-body ml-5 border border-info">
                     <a href="/payrent">

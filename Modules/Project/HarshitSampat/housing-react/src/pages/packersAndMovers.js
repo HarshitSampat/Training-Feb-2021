@@ -10,7 +10,7 @@ function packersAndMovers() {
           <header>
             <a href="/">
               <img
-                src="https://c.housingcdn.com/s/assets/housing.b5620bd6.png"
+                src="https://c.housingcdn.com/s/assets/housing.b5620bd6.pn"
                 class="css-e4tb7z packers18"
                 alt=""
               ></img>
@@ -122,7 +122,7 @@ function packersAndMovers() {
             </div>
           </div>
         </div>
-      </>
+      </> 
     );
 }
 

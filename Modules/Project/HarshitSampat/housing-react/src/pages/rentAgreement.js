@@ -1,6 +1,6 @@
 import React from 'react'
 // import Footer from "../components/Footer";
-import Navbar1 from '../components/Navbar';
+// import Navbar1 from '../components/Navbar';
 
 function rentAgreement() {
     return (

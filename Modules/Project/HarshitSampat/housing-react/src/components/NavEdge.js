@@ -5,7 +5,7 @@ function NavEdge() {
 return (
     <header className="">
     <a className="payrent-css3" href="/">
-        <img
+        <img    
         src="//c.housingcdn.com/s/assets/housing.b5620bd6.png"
         className="payrent-css4"
         />

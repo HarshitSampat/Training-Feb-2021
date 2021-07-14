@@ -1,11 +1,13 @@
 import React from 'react'
+import Footer from '../components/Footer'
 
 function rentalFurnitureInitiate() {
     return (
-        <div>
-            Hello from rental furniture initiate
-        </div>
+        <>  
+        
+        <Footer/>
+        </>
     )
 }
 
-export default rentalFurnitureInitiate
+export default rentalFurnitureInitiate      

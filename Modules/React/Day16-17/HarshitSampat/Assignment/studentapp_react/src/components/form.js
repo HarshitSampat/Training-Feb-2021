@@ -115,7 +115,7 @@ export default function form(props) {
 
   const handleChange = (event) => {
     event.prevenDefault();
-    const { name, value } = event.targe;
+    const { name, value } = event.target.value;
 
     let error = errors;
 

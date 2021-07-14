@@ -1,10 +1,13 @@
-import React from "react";
+import React,{useState} from "react";
 import "../Styles/culture.css";
 import img from "../Images/logo-4.png";
 import { BsHeartFill } from "react-icons/bs";
 import Footer from "../components/Footer";
 
-function culture() {
+function Culture() {
+ const [values,setValues] = useState([])
+ const [register,setregister]=useState([])
+
   return (
     <>
       <div id="innereApp" className="about-inner">
@@ -77,4 +80,4 @@ function culture() {
   );
 }
 
-export default culture;
+export default Culture;

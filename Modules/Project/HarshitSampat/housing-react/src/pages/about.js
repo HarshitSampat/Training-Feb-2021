@@ -6,6 +6,7 @@ import Footer from "../components/Footer";
 // import profile from "../Images/profile-about.jpg";
 
 function about() {
+  // const [] = useState()
     return (
       <>
         <div id="innereApp" className="about-inner">

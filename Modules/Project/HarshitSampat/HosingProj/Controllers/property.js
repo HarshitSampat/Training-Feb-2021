@@ -29,7 +29,7 @@ exports.addNewProperty = async (req, res) => {
       Address: req.body.Address,
       Property_Type: req.body.Property_Type,
       Bhk: req.body.Bhk,
-      Image: r,
+      Image: req.body.string,
     });
     //save to databese
     await addnewProperty.save();
